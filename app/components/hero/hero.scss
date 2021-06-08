@@ -30,6 +30,7 @@
 
     &__container {
         max-width: 1364px;
+        min-height: 1022px;
         /* width: 70.8%; */
         margin: 0 auto;
         display: flex;
@@ -112,6 +113,13 @@ color: #919191;
     &__description-link-img--linked-in {
         width: 38.4px;
         height: 38.4px;
+    }
+
+    &__photo {
+        position: absolute;
+        right: -80px;
+        bottom: 0;
+        z-index: 1;
     }
 
 }
