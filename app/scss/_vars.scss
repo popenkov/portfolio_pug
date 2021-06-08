@@ -1,0 +1,21 @@
+///
+// Vars
+///
+// Container break-points
+$grid-breakpoints: (
+	min: 0px,
+	mobile: 320px,
+	tablet: 768px,
+	desktop: 1280px
+);
+
+// Colors 
+$beige-1: #FFF7DB;
+$beige-2: #F2E0C2;
+$beige-3: #E5C78D;
+$yellow: #FFE894;
+$red: #C81526;
+$brown: #691D1C;
+$red_shadow: rgba(78,8,15,.1); 
+$red_shadow-darker: rgba(78,8,15,.2); 
+$beige2_shadow: rgba(242,224,194,.4);

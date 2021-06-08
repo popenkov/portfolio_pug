@@ -1,0 +1,20 @@
+include _mixins.pug
+include components/header/header
+include components/footer/footer
+
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        block pageTitle
+        include _styles.pug
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico"/>
+    body
+        include _svg.pug
+        block content
+        include _scripts.pug

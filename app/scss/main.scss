@@ -1,0 +1,22 @@
+@import '_vars';
+@import '_func';
+@import '_fonts';
+@import '_reset';
+@import '_sprite';
+
+/**
+ * Main Styles
+ */
+
+@import '_global';
+@import '_ui';
+@import '_animations';
+
+/**
+ * Components
+ */
+
+ @import '../components/footer/footer';
+ @import '../components/header/header';
+ @import '../components/hero/hero';
+

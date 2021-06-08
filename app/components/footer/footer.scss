@@ -1,0 +1,62 @@
+.footer{
+    width: 100%;
+    color: $beige-2;
+    background-color: #665406;
+    @include text-small;
+    @media screen and (max-width: 767px){
+        padding-left: 17px;
+    }
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        @media screen and (max-width: 959px){
+            display: block;
+        }
+    }
+    &__links{
+        height: 100%;
+        padding: 34px 0;
+        font-size: 12.5px;
+        &-item{
+            text-transform: uppercase;
+            display: block;
+        }
+        @media screen and (max-width: 959px){
+            text-align: center;
+            padding: 20px 0;
+        }
+        @media screen and (max-width: 574px){
+            text-align: left;
+            padding: 20px 0 10px;
+        }
+    }
+    &__warning{
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        @media screen and (max-width: 1279px){
+           padding-left: 0;
+        }
+        @media screen and (max-width: 959px){
+            justify-content: center;
+        }
+        &-icon{
+            flex-shrink: 0;
+            width: 63px;
+            height: 63px;
+            margin-left: 35 px;
+            @media screen and (max-width: 1279px){
+                margin-left: 0;
+            }
+        }
+        &-text{
+            padding-left: 20px;
+            @media screen and (max-width: 1279px){
+                font-size: 12px;
+                margin-right: 0;
+            }
+        }
+    }
+}

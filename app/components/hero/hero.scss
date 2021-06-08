@@ -1,0 +1,117 @@
+.hero {
+    background: #D7D7D7;
+    width: 100%;
+    min-height: 1022px;
+    
+    position: relative;
+    overflow: hidden;
+
+
+    &__black-rectangle {
+        position: absolute;
+        width: 1802.3px;
+        width: 100%;
+        /* padding-right: 999px; */
+        /* height: 1373.99px; */
+        left: 800px;
+        /* left: 50%; */
+        top: -192px;
+
+        background: #000000;
+        transform: rotate(9.67deg);
+        z-index: 0;
+    }
+
+    &__black-rectangle::after {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+
+    &__container {
+        max-width: 1364px;
+        /* width: 70.8%; */
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+
+    &__description {
+        position: absolute;
+        left: 0;
+        top: 351px;
+        color: #000000;
+    }
+
+    &__description-text {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+
+    }
+
+    &__description-name {
+        font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 94px;
+text-align: center;
+    }
+
+    &__description-speciality {
+        font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 29px;
+text-align: left;
+
+color: #919191;
+    }
+
+    &__description-links-container {
+        margin-top: 125px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__description-link {
+        position: relative;
+        width: 61px;
+        height: 56px;
+        margin-right: 31px;
+
+        background: #C4C4C4;
+    }
+
+    &__description-link:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__description-link svg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__description-link-img--mail {
+
+        width: 37px;
+        height: 35.5px;
+    }
+
+    &__description-link-img--github {
+        width: 35px;
+        height: 34px;
+    }
+
+    &__description-link-img--linked-in {
+        width: 38.4px;
+        height: 38.4px;
+    }
+
+}
