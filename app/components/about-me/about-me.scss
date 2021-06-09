@@ -9,4 +9,25 @@
         background: rgb(254,254,254);
         background: radial-gradient(circle, rgba(254,254,254,1) 25%, rgba(214,214,214,1) 60%);
     }
+
+    &__description-title {
+        padding-top: 3px;
+    }
+
+    &__description-text {
+        color: #050505;
+        margin: 0 auto;
+        margin-top: 72px;
+        width: 60%;
+
+
+        font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 138.68%;
+/* or 21px */
+
+text-align: center;
+    }
 }

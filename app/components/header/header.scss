@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    top: 59px;
     /* max-width: 1920px; */
     position: absolute;
     z-index: 1;
@@ -9,6 +10,12 @@
         max-width: 1364px;
         margin: 0 auto;
         display: flex;
+        align-items: center;
+        transform: translateX(-20px);
+    }
+
+    &__logo {
+        padding: 0;
     }
 
     &__menu {
@@ -25,6 +32,7 @@
         line-height: 21px;
         text-align: center;
         color: #ffffff;
+        margin-left: 68px;
     }
 
     &__menu-contact-me {
