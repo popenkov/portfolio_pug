@@ -1,15 +1,18 @@
 .about-me {
-    background: rgba(214,214,214,1);
+    background: rgba(214, 214, 214, 1);
     width: 100%;
 
     &__container {
         margin: 0 auto;
         max-width: 1364px;
         min-height: 1022px;
-        background: rgb(254,254,254);
-        background: radial-gradient(circle, rgba(254,254,254,1) 25%, rgba(214,214,214,1) 60%);
+        background: rgb(254, 254, 254);
+        background: radial-gradient(circle, rgba(254, 254, 254, 1) 25%, rgba(214, 214, 214, 1) 60%);
     }
 
+    &__description-container {
+        width: 100%;
+    }
     &__description-title {
         padding-top: 3px;
     }
@@ -19,15 +22,128 @@
         margin: 0 auto;
         margin-top: 72px;
         width: 60%;
-
-
         font-family: "Open Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 138.68%;
-/* or 21px */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 138.68%;
+        /* or 21px */
 
-text-align: center;
+        text-align: center;
     }
+
+    &__description-explore {
+        
+        text-align: center;
+        max-width: 139px;
+        margin: 0 auto;
+        margin-bottom: 71px;
+        margin-top: 50px;
+        padding: 11px 37px;
+        cursor: pointer;
+        border: 2px solid #050404;
+        border-width: 0px 2px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #050404;
+    }
+
+    &__description-separator {
+        margin: 0 auto;
+        display: block;
+        width: 170px;
+    }
+
+    &__offer-container {
+        width: 73%;
+        margin: 0 auto;
+        margin-bottom: 41px;
+        margin-top: 136px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__offer-item {
+        width: 420px;
+        width: 46.3%;
+        
+        margin-bottom: 108px;
+
+        color: #000000;
+    }
+
+    &__offer-item:nth-child(odd) {
+        margin-right: 70px;
+    }
+
+    &__offer-title{
+        position: relative;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.18538em;
+margin-bottom: 19px;
+    }
+
+    &__offer-title::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        /* trans; */
+    }
+
+    &__offer-text {
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+text-align: justify;
+    }
+
+    &__skills-container {
+        margin-top: 120px;
+    }
+
+    &__container__link {
+        width: 400px;
+    }
+
+
+    &__skills-using-title,
+    &__skills-learning-title,
+    &__skills-other-title {
+        font-family: 'Montserrat';
+font-style: normal;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+letter-spacing: 0.18538em;
+
+color: #000000;
+    }
+
+    &__skills-using-container,
+    &__skills-learning-container,
+    &__skills-other-container {
+        display: flex;
+        
+    }
+
+
 }

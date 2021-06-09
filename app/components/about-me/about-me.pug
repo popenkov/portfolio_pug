@@ -6,15 +6,70 @@ section.about-me
                 | My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry.
 
                 |Membership in the science club developed my design skills, which quickly turned into a new hobby. I am fluent in English (spoken and written) and intermediate Spanish. Apart from designing and programming websites, my passion is all kinds of motorsport - from rallies to the very king of motorsport - formula 1.
-                
+
             a.about-me__description-explore Explore
 
             img(src="../assets/images/separator.png").about-me__description-separator
 
-            
-                
+
+        .about-me__offer-container
+            .about-me__offer-item
+                h3.about-me__offer-title Design
+                p.about-me__offer-text I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.
+
+        
+            .about-me__offer-item
+                h3.about-me__offer-title Development
+                p.about-me__offer-text I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.
+
+            .about-me__offer-item
+                h3.about-me__offer-title Mainentance
+                p.about-me__offer-text I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.
+
+        img(src="../assets/images/separator.png").about-me__description-separator
 
 
         .about-me__skills-container
+            +section-title("Skills", "about-me__skills-title")
+
+            .about-me__skills-using-container
+                h3.about-me__skills-using-title Using now
+                .about-me__skills-using-container
+                    .about-me__skills-using-item
+                        +svg('html', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text HTML
+                        
+                    .about-me__skills-using-item
+                        +svg('css', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text CSS
+
+                    .about-me__skills-using-item
+                        +svg('sass', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text Sass
+
+                    .about-me__skills-using-item
+                        +svg('js', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text JavaScript
+
+                    .about-me__skills-using-item
+                        +svg('git', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text GIT
+
+                    .about-me__skills-using-item
+                        +svg('figma', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text Figma
+
+                                            .about-me__skills-using-item
+                        +svg('react', 'about-me__skills-using-item')
+                        p.about-me__skills-using-item-text React
+
+
+            .about-me__skills-learning-container
+                h3.about-me__skills-learning-title Learning now
+                .about-me__skills-learning-container
+
+            .about-me__skills-other-container
+                h3.about-me__skills-other-title Other skills
+                .about-me__skills-other-container
 
 
