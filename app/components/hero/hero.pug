@@ -13,7 +13,11 @@ section.hero
                 a.hero__description-link(href="")
                     +svg("linked-in", 'hero__description-link-img')
                 
-        img.hero__photo(src="../../assets/images/photo.png")
+        
+        picture
+            source(type="image/webp", srcset="../../assets/images/photo.webp  1x, ../../assets/images/photo--2x.webp 2x")
+            img.hero__photo(src="../../assets/images/photo.png" srcset="../../assets/images/photo--2x.png 2x")
+
 
 
         .hero__black-rectangle

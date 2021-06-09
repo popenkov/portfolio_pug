@@ -1,0 +1,17 @@
+.section-title-container {
+    margin: 0 auto;
+    text-align: center;
+
+    &__link {
+        color: #000000;
+        display: inline-block;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.35538em;
+border: 8px solid #000000;
+    }
+}

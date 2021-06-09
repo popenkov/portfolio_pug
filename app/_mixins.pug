@@ -2,3 +2,9 @@ mixin svg(name, className, mod)
     - m = mod || ''
     svg(class="icon "+name+m class=className+'--'+name+m)
         use(xlink:href="#" + name)
+
+mixin section-title(title)
+    .section-title-container 
+        a.section-title-container__link
+            span.section-title-container__link-text=title
+                
