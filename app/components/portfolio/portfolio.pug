@@ -3,19 +3,25 @@ section.portfolio
         .portfolio__background-title-container
             +section-title('Portfolio', 'portfolio__background-title')
 
-            .portfolio__works-container
-                .portfolio__works-tabs-container
+        .portfolio__works-container
+            form.portfolio__works-tabs-container
+                    label.portfolio__works-tab-btn-label
+                        input.portfolio__works-tab-btn(type="radio" name="portfolio" value='all' selected=true)
+                        span.portfolio__works-tab-btn-label All
+                    label.portfolio__works-tab-btn-label
+                        input.portfolio__works-tab-btn(type="radio" name="portfolio" value='coded')
+                        span.portfolio__works-tab-btn-label Coded
+                    label.portfolio__works-tab-btn-label
+                        input.portfolio__works-tab-btn(type="radio" name="portfolio" value='designed')
+                        span.portfolio__works-tab-btn-label Designed
 
-                .portfolio__works-list
-                    .portfolio__works-list-item-holder
-                    .portfolio__works-list-item-block
-                        h3.portfolio__works-list-item-title
-                        p.portfolio__works-list-item-description
-                        .portfolio__works-list-item-links-container
-                            a.portfolio__works-list-item-demo-link(href="")
-                            a.portfolio__works-list-item-more-link(href="")
-                    
-                    +portfolio-item('project-1','Project title', 'Project description')
+            .portfolio__works-list    
+                +portfolio-item('project-1','Project title', 'Project description')
+                +portfolio-item('project-2','Project title', 'Project description')
+                +portfolio-item('project-3','Project title', 'Project description')
+                +portfolio-item('project-4','Project title', 'Project description')
+                +portfolio-item('project-5','Project title', 'Project description')
+                +portfolio-item('project-6','Project title', 'Project description')
 
 
 

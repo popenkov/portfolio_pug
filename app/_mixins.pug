@@ -10,9 +10,10 @@ mixin section-title(title, className)
                 
 mixin   portfolio-item (classMod, title, description, demoHref='', moreHref='')            
     .portfolio__works-list-item-holder(class='portfolio__works-list-item-holder--'+classMod)
-    .portfolio__works-list-item-block
-        h3.portfolio__works-list-item-title=title
-        p.portfolio__works-list-item-description=description
-        .portfolio__works-list-item-links-container
-            a.portfolio__works-list-item-demo-link(href=""+demoHref) Demo
-            a.portfolio__works-list-item-more-link(href=""+moreHref) More
+        .portfolio__works-list-item-block
+            .portfolio__works-list-item-text-container
+                h3.portfolio__works-list-item-title=title
+                p.portfolio__works-list-item-description=description
+                .portfolio__works-list-item-links-container
+                    a.portfolio__works-list-item-link.portfolio__works-list-item-demo-link(href=""+demoHref) Demo
+                    a.portfolio__works-list-item-link.portfolio__works-list-item-more-link(href=""+moreHref) More

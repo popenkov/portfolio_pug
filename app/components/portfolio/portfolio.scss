@@ -13,4 +13,124 @@
         }
         
     }
+
+    &__works-container {
+        background-color: #1A1A1A;
+    }
+
+    &__works-tabs-container {
+        margin: 0 auto;
+        width: 390px;
+    }
+
+    &__works-tab-btn-label {
+        width: 33.33%;
+/*         border: none;
+        background-color: inherit; */
+    }
+
+    &__works-list {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    &__works-list-item-holder {
+        width: 33.3%;
+        height: 400px;
+        position: relative;  
+        
+    }
+
+    &__works-list-item-block {
+        position:absolute;
+        left:0;
+        bottom:0;
+        right:0;
+        top:0;
+        display:none;
+    }
+
+    &__works-list-item-text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__works-list-item-title {
+        margin-bottom: 16px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 127.9%;
+/* or 32px */
+text-align: center;
+letter-spacing: 0.20538em;
+color: #FFFFFF;
+    }
+
+    &__works-list-item-description {
+        margin-bottom: 29px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+    }
+
+    &__works-list-item-links-container {
+        display: flex;
+
+
+
+    }
+
+    &__works-list-item-link {
+        border: 2px solid #FFFFFF;
+        border-width: 0 2px;
+        padding: 6px 32px;
+
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.095em;
+
+color: #FFFBFB;
+    }
+
+    &__works-list-item-demo-link {
+        margin-right: 25px;
+    }
+
+    &__works-list-item-holder:hover &__works-list-item-block {
+        display:block;
+        background:rgba(0,0, 0, 0.5);
+        
+    }
+
+
+    &__works-list-item-holder--project-1,
+    &__works-list-item-holder--project-6 {
+        background-image: url(../assets/images/project-1.jpg);
+    }
+
+    &__works-list-item-holder--project-2,
+    &__works-list-item-holder--project-4 {
+        background-image: url(../assets/images/project-2.jpg);
+    }
+
+    &__works-list-item-holder--project-3,
+    &__works-list-item-holder--project-5 {
+        background-image: url(../assets/images/project-3.jpg);
+    }
 }
