@@ -7,5 +7,15 @@ section.portfolio
                 .portfolio__works-tabs-container
 
                 .portfolio__works-list
-                    .portfolio__works-list-item
+                    .portfolio__works-list-item-holder
+                    .portfolio__works-list-item-block
+                        h3.portfolio__works-list-item-title
+                        p.portfolio__works-list-item-description
+                        .portfolio__works-list-item-links-container
+                            a.portfolio__works-list-item-demo-link(href="")
+                            a.portfolio__works-list-item-more-link(href="")
+                    
+                    +portfolio-item('project-1','Project title', 'Project description')
+
+
 
