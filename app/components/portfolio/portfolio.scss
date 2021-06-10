@@ -1,0 +1,16 @@
+.portfolio {
+    width: 100%;
+
+    &__background-title-container {
+        width: 100%;
+        min-height: 321px;
+        background-image: url(../assets/images/portfolio__background.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media (min-resolution: 2dppx) {
+            background-image: url(../assets/images/portfolio__background--2x.jpg);
+        }
+        
+    }
+}

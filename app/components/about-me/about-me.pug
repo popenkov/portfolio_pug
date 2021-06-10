@@ -34,7 +34,7 @@ section.about-me
 
             .about-me__skills-using-container
                 h3.about-me__skills-using-title Using now
-                .about-me__skills-using-container
+                .about-me__skills-using-items-container
                     .about-me__skills-using-item
                         +svg('html', 'about-me__skills-using-item')
                         p.about-me__skills-using-item-text HTML
@@ -52,24 +52,38 @@ section.about-me
                         p.about-me__skills-using-item-text JavaScript
 
                     .about-me__skills-using-item
-                        +svg('git', 'about-me__skills-using-item')
+                        img.about-me__skills-using-item--english(src="../assets/images/git.png")
                         p.about-me__skills-using-item-text GIT
 
                     .about-me__skills-using-item
                         +svg('figma', 'about-me__skills-using-item')
                         p.about-me__skills-using-item-text Figma
 
-                                            .about-me__skills-using-item
+                    .about-me__skills-using-item
                         +svg('react', 'about-me__skills-using-item')
                         p.about-me__skills-using-item-text React
 
 
             .about-me__skills-learning-container
                 h3.about-me__skills-learning-title Learning now
-                .about-me__skills-learning-container
+                .about-me__skills-learning-items-container
+                    .about-me__skills-learning-item
+                        +svg('nodejs', 'about-me__skills-learning-item')
+                        p.about-me__skills-using-item-text NodeJS
+
+                    .about-me__skills-learning-item
+                        +svg('mysql', 'about-me__skills-learning-item')
+                        p.about-me__skills-using-item-text MySQL
+
+                    .about-me__skills-learning-item
+                        +svg('ts', 'about-me__skills-learning-item')
+                        p.about-me__skills-using-item-text TypeScript
 
             .about-me__skills-other-container
                 h3.about-me__skills-other-title Other skills
-                .about-me__skills-other-container
+                .about-me__skills-other-items-container
+                    .about-me__skills-other-item
+                        img.about-me__skills-other-item--english(src="../assets/images/english.png")
+                        p.about-me__skills-using-item-text English B1/B2
 
 

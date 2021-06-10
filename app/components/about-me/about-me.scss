@@ -114,6 +114,8 @@ text-align: justify;
     }
 
     &__skills-container {
+        width: 63%;
+        margin: 0 auto;
         margin-top: 120px;
     }
 
@@ -121,6 +123,9 @@ text-align: justify;
         width: 400px;
     }
 
+    &__skills-using-container {
+        margin-top: 100px;
+    }
 
     &__skills-using-title,
     &__skills-learning-title,
@@ -131,18 +136,113 @@ text-transform: uppercase;
 font-weight: bold;
 font-size: 30px;
 line-height: 37px;
-display: flex;
-align-items: center;
 letter-spacing: 0.18538em;
 
 color: #000000;
     }
 
-    &__skills-using-container,
-    &__skills-learning-container,
-    &__skills-other-container {
+
+
+    &__skills-using-items-container,
+    &__skills-learning-items-container,
+    &__skills-other-items-container {
+        margin-top: 91px;
         display: flex;
+        flex-wrap: wrap;
+        align-items: center;
         
+    }
+
+    &__skills-using-item-text,
+    &__skills-learning-item-text,
+    &__skills-other-item-text {
+        margin-top: 30px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: left;
+letter-spacing: 0.13538em;
+color: #000000;
+    }
+
+    &__skills-using-item,
+    &__skills-learning-item,
+    &__skills-other-item {
+        /* flex-basis: 25%; */
+        width: 100px;
+        margin-right: 145px;
+        margin-bottom: 77px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__skills-using-item:nth-child(4),
+    &__skills-learning-item:nth-child(4),
+    &__skills-other-item:nth-child(4) {
+        margin-right: 0;
+    }
+
+
+
+
+    &__skills-using-item--html {
+        width: 84px;
+        height: 100px;
+    }
+
+    &__skills-using-item--css {
+        width: 84px;
+        height: 100px;
+    }
+
+    &__skills-using-item--sass {
+        width: 126px;
+        height: 100px;
+        transform: scale(1.3);
+    }
+
+    &__skills-using-item--js {
+        width: 96px;
+        height: 100px;
+    }
+
+    &__skills-using-item--git {
+        width: 96px;
+        height: 100px;
+    }
+
+    &__skills-using-item--react {
+        width: 106px;
+        height: 100px;
+    }
+
+    &__skills-using-item--figma {
+        width: 70px;
+        height: 100px;
+    }
+
+    &__skills-learning-item--nodejs {
+        width: 85px;
+        height: 100px;
+    }
+
+    &__skills-learning-item--mysql {
+        width: 103px;
+        height: 100px;
+    }
+
+    &__skills-learning-item--ts {
+        width: 100px;
+        height: 100px;
+    }
+
+    &__skills-other-item--english {
+        width: 100px;
+        height: 100px;
     }
 
 
