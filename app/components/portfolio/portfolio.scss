@@ -29,6 +29,11 @@
         background-color: inherit; */
     }
 
+    &__works-tab-btn:checked + &__works-tab-btn-label { 
+        border-bottom: 3px solid red;
+
+    }
+
     &__works-list {
         display: flex;
         flex-wrap: wrap;
